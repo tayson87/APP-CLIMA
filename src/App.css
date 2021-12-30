@@ -1,38 +1,92 @@
-.App {
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+ background-image: url(C:\Users\Admin\Desktop\ejerciciosreact\ejercicio\cayo-bolivar-346126.jpg);
+ background-size: 100%;
+
+}
+
+.app  {
+  width: 330px;
+  height: 520px;
+  justify-content: center;
+  padding: 10px;
+  margin: 100px 50px 50px 500px; 
+  border: 8px solid black;
+  border-radius: 15px;
+  background-color: #FCF8FF;
+  opacity: 0.5;
+  box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 2);
+
+}
+
+.location  {
+    text-align: center;
+    list-style: none;
+    font-family: cursive;
+
+}
+
+.title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  margin-left: 70px;
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.degrees {
+  margin: 60px 100px;
+  text-align: center;
+  background-color: aqua;
+  border-radius: 5px;
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.temperature {
+  position: relative;
+  bottom: 140px;
+  left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.temp_max {
+position: relative;
+bottom:50px;
+list-style: none;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tempmax {
+  position: relative;
+  bottom: 60px;
+  list-style: none;
 }
+
+.temp_max {
+  position: relative;
+  bottom: 30px;
+}
+
+.tempmin {
+  position: relative;
+  bottom: 100px;
+  list-style: none;
+  left: 150px;
+}
+
+.temp_min {
+  position: relative;
+  bottom: 70px;
+  left: 210px;
+}
+
+
+
+
+
