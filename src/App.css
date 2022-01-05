@@ -6,11 +6,11 @@
 }
 
 body {
- background-image: url(C:\Users\Admin\Desktop\ejerciciosreact\ejercicio\cayo-bolivar-346126.jpg);
+ background-image: url(./cayo-bolivar-346126.jpg);
  background-size: 100%;
 
 }
-
+/* especificaciones de la card principal */
 .app  {
   width: 330px;
   height: 520px;
